@@ -1,8 +1,8 @@
 // Insertion Sort Algorithm
 // @Params (1) array: array integers
 
-// @Big-O O(n²)
-// @Big-Omega O(n²)
+// @BigO O(n²)
+// @BigOmega Ω(n²)
 
 // @Space O(1)
 

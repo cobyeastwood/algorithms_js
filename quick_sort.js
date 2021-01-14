@@ -1,8 +1,8 @@
 // Quick Sort Algorithm
 // @Params (1) array: array integers
 
-// @Big-O O(n log n)
-// @Big-Omega Ω(n²)
+// @BigO O(n log n)
+// @BigOmega Ω(n²)
 
 function quickSort(array, length = array.length) {
   // Base case

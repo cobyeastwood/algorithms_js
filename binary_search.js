@@ -1,23 +1,23 @@
 // Binary Search Algorithm
 // @Params (1) array: array integers (sorted), (2) target: integer
 
-// @Big-O O(log n)
-// @Big-Omega Ω(log n)
+// @BigO O(log n)
+// @BigOmega Ω(log n)
 
 function binarySearch(array, target, length = array.length) {
   // Base case
   if (!length) return false;
 
   // Find middle index
-  let mid = Math.floor(length / 2);
+  let middle = Math.floor(length / 2);
 
-  let left = array.slice(0, mid); // slice won't include mid
-  let right = array.slice(mid + 1);
+  let left = array.slice(0, middle); // slice won't include middle
+  let right = array.slice(middle + 1);
 
   // Call recursively
-  return target < array[mid]
+  return target < array[middle]
     ? binarySearch(left, target)
-    : target > array[mid]
+    : target > array[middle]
     ? binarySearch(right, target)
     : true;
 }
