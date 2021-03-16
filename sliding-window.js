@@ -1,8 +1,9 @@
-/*
-  Sliding Window Algorithm
+/* Sliding Window Algorithm
 
   @description: find max sum of values for a given window size
-  @params: (a, k, n) a Int Array, k Window, n Int Array Length
+  
+  @params: (a, k, n) a: Int Array, k: Window, n: Int Array Length
+
   @BigO: O(n)
 */
 

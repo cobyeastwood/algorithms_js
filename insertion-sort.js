@@ -1,15 +1,18 @@
-// Insertion Sort Algorithm
-// @Description: proceed once through the array from left to right, shifting elements as needed to insert each element into its correct place
-// @Params: (1) array: array integers
+/* Insertion Sort Algorithm
 
-// @BigO: O(n²)
-// @BigOmega: Ω(n²)
+  @description: proceed once through the array from left to right, shifting elements as needed to insert each element into its correct place
 
-// @Space: O(1)
+  @params: (a, n) a: Int Array, n: Int Array Length
 
-function insertionSort(array, length = array.length) {
+  @BigO: O(n²)
+  @BigOmega: Ω(n²)
+
+  @Space: O(1)
+ */
+
+function insertionSort(array, n = array.length) {
   // Iterate over all indexes after first
-  for (let i = 1; i < length; i++) {
+  for (let i = 1; i < n; i++) {
     let current = array[i];
     // Iterate left until met conditional
     for (var j = i - 1; j >= 0 && current < array[j]; j--) {
