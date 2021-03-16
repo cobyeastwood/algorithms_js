@@ -7,7 +7,7 @@
   @BigOmega: Ω(n²)
 */
 
-function quickSort(a, n = array.length) {
+function quickSort(a, n = a.length) {
   // Base case
   if (n <= 1) return a;
 
