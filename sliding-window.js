@@ -25,4 +25,4 @@ function SlidingWindow(a, k, n = a.length) {
   return max;
 }
 
-console.log(SlidingWindow([100, 200, 300, 400], 2)); // 39
+console.log(SlidingWindow([100, 200, 300, 400], 2)); // 700
