@@ -1,7 +1,6 @@
 /* Binary Search Algorithm
 
   @description: given a sorted array, divide and conquer by systematically eliminating half of the remaining elements in the search for the target element
-
   @params: (a, k, n) a: Int Array (sorted), k: Int, n: Int Array Length
 
   @BigO: O(log n)

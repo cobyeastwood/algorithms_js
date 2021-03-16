@@ -1,7 +1,6 @@
 /* Quick Sort Algorithm
 
   @description: select a pivot element from the array and partitioning the other elements into two sub-arrays, according to if they are less than or greater than the pivot
-
   @params: (a, n) a: Int Array, n: Int Array Length
 
   @BigO: O(n log n)
