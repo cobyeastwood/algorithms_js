@@ -1,8 +1,9 @@
 // Binary Search Algorithm
-// @Params (1) array: array integers (sorted), (2) target: integer
+// @Description: given a sorted array, divide and conquer by systematically eliminating half of the remaining elements in the search for the target element
+// @Params: (1) array: array integers (sorted), (2) target: integer
 
-// @BigO O(log n)
-// @BigOmega Ω(log n)
+// @BigO: O(log n)
+// @BigOmega: Ω(log n)
 
 function binarySearch(array, target, length = array.length) {
   // Base case

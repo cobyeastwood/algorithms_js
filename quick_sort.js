@@ -1,18 +1,22 @@
-// Quick Sort Algorithm
-// @Params (1) array: array integers
+/* 
+  Quick Sort Algorithm
 
-// @BigO O(n log n)
-// @BigOmega Ω(n²)
+  @description: select a pivot element from the array and partitioning the other elements into two sub-arrays, according to if they are less than or greater than the pivot
+  @params: (a, n) a Int Array, n Int Array Length
 
-function quickSort(array, length = array.length) {
+  @BigO: O(n log n)
+  @BigOmega: Ω(n²)
+*/
+
+function quickSort(a, n = array.length) {
   // Base case
-  if (length <= 1) return array;
+  if (n <= 1) return a;
 
-  let zero = array.shift();
+  let zero = a.shift();
 
   // Seperate
-  let lt = array.filter(c => c < zero);
-  let rt = array.filter(c => c >= zero);
+  let lt = a.filter(c => c < zero);
+  let rt = a.filter(c => c >= zero);
 
   // Call on result
   return [...quickSort(lt), zero, ...quickSort(rt)];

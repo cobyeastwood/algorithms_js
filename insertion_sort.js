@@ -1,10 +1,11 @@
 // Insertion Sort Algorithm
-// @Params (1) array: array integers
+// @Description: proceed once through the array from left to right, shifting elements as needed to insert each element into its correct place
+// @Params: (1) array: array integers
 
-// @BigO O(n²)
-// @BigOmega Ω(n²)
+// @BigO: O(n²)
+// @BigOmega: Ω(n²)
 
-// @Space O(1)
+// @Space: O(1)
 
 function insertionSort(array, length = array.length) {
   // Iterate over all indexes after first
